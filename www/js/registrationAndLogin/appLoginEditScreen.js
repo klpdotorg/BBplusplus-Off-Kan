@@ -38,10 +38,10 @@ Game.appLoginEditScreen.prototype = {
 		_this.basePath = cordova.file.externalRootDirectory + "Android/data/com.akshara.BBplusplusOffKan/Files/Download/.gameFilesBB++V10_2/www/";
 
 		//* nEED to change this ****
-		_this.fullSize = 307623351;//,302978124
+		_this.fullSize = 307651189;//,302978124//87798759
 
 		//BBplusplusOffKan//119,941,833 kannada + 18,76,72,332,  //95,186,236
-		_this.zipFiles = [["Assets1.zip", 981561], ["Assets2.zip", 87770921], ["Assets4.zip", 95186236], ["KannadaquestionSounds.zip", 119941833],["sounds.zip", 3742800]];// old = 3683747
+		_this.zipFiles = [["Assets1.zip", 981561], ["Assets2.zip", 87798759], ["Assets4.zip", 95186236], ["KannadaquestionSounds.zip", 119941833],["sounds.zip", 3742800]];// old = 3683747
 		 //["HindiquestionSounds.zip", 29272691],["KannadaquestionSounds.zip", 29272691], ["OdiyaquestionSounds.zip", 48682701], ["MarathiquestionSounds.zip", 39766797], ["TamilquestionSounds.zip", 30783494],
 
 		_this.counter = 0;
